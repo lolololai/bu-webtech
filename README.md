@@ -1,3 +1,3 @@
-- Nickname: Bank
+- Nickname: MOO
 - Favorite Food: ...
 
