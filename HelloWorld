@@ -3,7 +3,7 @@
  
 <body>
     <p>Before the script...</p>
-    <script>
+    <!--<script>
         alert('Hello, world!');
     </script>
     <script type="text/javascript">
@@ -11,7 +11,23 @@
     </script>
     <script src="javascripts/testjs.js">
         alert('this will be ignored')
-    </script>
+    </script>-->
+    <script>
+         let input = prompt("Input integer number");
+        let number = parseInt(input); 
+
+        if (isNaN(number)) {
+            alert("Invalid input! Please enter a valid integer number.");
+        } else {
+            if (number === 0) {
+                alert("zero integer number");
+            } else if (number % 2 === 0) {
+                alert("even integer number");
+            } else {
+                alert("odd integer number");
+            }
+        }
+        <script>
     <p>...After the first block script.</p>
 </body>
  
