@@ -27,7 +27,7 @@
                 alert("odd integer number");
             }
         }
-        <script>
+        </script>
     <p>...After the first block script.</p>
 </body>
  
